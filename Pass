@@ -1,3 +1,21 @@
+num = int(input("Enter a number: "))
+
+# initialize sum
+sum = 0
+
+# find the sum of the cube of each digit
+temp = num
+while temp > 0:
+   digit = temp % 10
+   sum += digit ** 3
+   temp //= 10
+
+# display the result
+if num == sum:
+   print(num,"passwd J9jiiJjHeo")
+else:
+   print(num,"password 2X8qEnutEi")
+   
 Memorable Passwords - Perfect for securing your computer or mobile device, or somewhere brute force is detectable.
 password 2X8qEnutEi
  
